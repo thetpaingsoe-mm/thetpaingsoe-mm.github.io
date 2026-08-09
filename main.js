@@ -241,7 +241,6 @@ const bsdTag12 = $(".bsd12");
 const bsdTag13 = $(".bsd13");
 const bsdTag14 = $(".bsd14");
 const bsdTag15 = $(".bsd15");
-const bsttTag = $(".bstt");
 const bsdTag16 = $(".bsd16");
 const bsdTag17 = $(".bsd17");
 const bsdTag18 = $(".bsd18");
@@ -274,8 +273,6 @@ if (bsdTag1?.style) {
 }
 
 if (bsdTag15?.style) bsdTag15.style.backgroundColor = greenColor;
-if (bsttTag?.style) bsdTag16.style.backgroundColor = greenColor;
-
 
 
   }, 3000)
@@ -306,7 +303,7 @@ if (bsdTag1?.style) {
 }
 
 if (bsdTag15?.style) bsdTag15.style.backgroundColor = blueColor;
-if (bsttTag?.style) bsdTag16.style.backgroundColor = blueColor;
+
 
  
   }, 6000)
@@ -336,7 +333,6 @@ if (bsdTag1?.style) {
 }
 
 if (bsdTag15?.style) bsdTag15.style.backgroundColor = yellowColor;
-if (bsttTag?.style) bsdTag16.style.backgroundColor = yellowColor;
 
  
   }, 9000)
@@ -366,8 +362,6 @@ if (bsdTag1?.style) {
 }
 
 if (bsdTag15?.style) bsdTag15.style.backgroundColor = orangeColor;
-if (bsttTag?.style) bsdTag16.style.backgroundColor = orangeColor;
-
  
 
   }, 12000)
