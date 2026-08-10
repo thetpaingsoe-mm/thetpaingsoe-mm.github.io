@@ -253,7 +253,7 @@ const timerFeatures = () => {
   setTimeout(() => {
 
 
-//change green text color
+//change text color to green
 const greenColor = "rgb(77, 255, 0)";
 [textTag1, textTag2, textTag3, textTag4, textTag5, textTag6, textTag7, textTag8, textTag9, textTag10]
   .forEach(tag => { if (tag?.style) tag.style.color = greenColor; });
@@ -283,7 +283,7 @@ if (bsdTag15?.style) bsdTag15.style.backgroundColor = greenColor;
   setTimeout(() => {
    
 
-    //change green text color
+    //change text color to blue
 const blueColor = "rgb(0, 174, 255)";
 [textTag1, textTag2, textTag3, textTag4, textTag5, textTag6, textTag7, textTag8, textTag9, textTag10]
   .forEach(tag => { if (tag?.style) tag.style.color = blueColor; });
@@ -313,7 +313,7 @@ if (bsdTag15?.style) bsdTag15.style.backgroundColor = blueColor;
    setTimeout(() => {
    
 
-    //change green text color
+    //change text color to yellow
 const yellowColor = "rgb(196, 196, 51)";
 [textTag1, textTag2, textTag3, textTag4, textTag5, textTag6, textTag7, textTag8, textTag9, textTag10]
   .forEach(tag => { if (tag?.style) tag.style.color = yellowColor; });
@@ -342,7 +342,7 @@ if (bsdTag15?.style) bsdTag15.style.backgroundColor = yellowColor;
  setTimeout(() => {
    
 
-    //change green text color
+    //change text color orange
 const orangeColor = "rgb(238, 100, 50)";
 [textTag1, textTag2, textTag3, textTag4, textTag5, textTag6, textTag7, textTag8, textTag9, textTag10]
   .forEach(tag => { if (tag?.style) tag.style.color = orangeColor; });
